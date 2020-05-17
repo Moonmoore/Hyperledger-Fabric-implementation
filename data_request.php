@@ -99,8 +99,8 @@ else{
 
 $dateRange = $_POST['dateRange'];
 
-//possibly change email admin@nersc.gov
-$to = "buckshot552@gmail.com";
+//change email to actual email address
+$to = "(enter email here)";
 $subject = "Data request";
 $headers = "From: $email\n";
 $message = "Name: $name
