@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/nersclogo-101x35.png" type="image/x-icon">
+  
+  <title>homepage</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <style> 
+        input.largerCheckbox { 
+            width: 30px; 
+            height: 30px; 
+        } 
+    </style>
+</head>
+<body>
+  <section class="menu cid-rtIbH6qX3B" once="menu" id="menu1-5">
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                         <img src="assets/images/nersclogo-1-101x35.png" alt="logo" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="account.html">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
+                        Account</a>
+                </li>
+			</ul>
+        </div>
+    </nav>
+</section>
+
+<form action="data_request.php" method="post">
+</br></br></br>
+<section class="section-table cid-rtUmaNVdbe" id="datatable">
+<div class="form-group">
+  <div class="container container-table">
+      <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">
+          Available data
+      </h2>
+      <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">
+            This table lists all available data as well as various information about it.  At the bottom of the page you can fill the form to request the datasets you would like access to.
+      </h3>
+      <div class="table-wrapper">
+        <div class="container scroll">
+          <table class="table isSearch" cellspacing="0">
+            <thead>
+              <tr class="table-heads ">
+				<th class="head-item mbr-fonts-style display-7" align="left">Average Size</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">Freq</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">Rough Doc Count</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">Location (/glusterfs/ec0/es5/)</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">Index Name (Minus .tar)</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">kb.nersc.gov pattern</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">grafana.nersc.gov data source</th>
+				<th class="head-item mbr-fonts-style display-7" align="left">Select</th>
+				</tr>
+			</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">876545750</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-collectd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-collectd-*</p></td>
+<td></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="alva-collectd-*"/></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">85M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">41975007</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2018.08/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-lustre-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-lustre-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alva Lustre</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="alva-lustre-*"/></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">78189</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-syslog-json-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">alva-syslog-json-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="alva-syslog-json-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19391760</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2018.08/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">app-weather-2018.08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">app-weather-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Weather Station</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="app-weather-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">276M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">98230486</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bro-user_auth_logs-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="bro-user_auth_logs-2017.12.25"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">96G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">48465621820</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-collectd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-collectd-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori Collectd</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-collectd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Soon</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">119886</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2018.08/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-lustre-2018.09.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-lustre-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori Lustre</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-lustre-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.9G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18369449806</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-modbus-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-modbus-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori Modbus, modbus</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-modbus-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">559M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">227390782</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-modbus-full-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-modbus-full-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-modbus-full-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">80M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">406512045</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-scrape-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-scrape-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ION Meters</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-scrape-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">136M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">43101606</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-job-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-job-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori Jobs, Cori SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-sedc-job-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">27697873207</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-power_bp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-power_bp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori SEDC Power BP, Cori SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-sedc-power_bp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.4G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5533639799</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-power_cp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-power_cp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori SEDC Power CP, Cori SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-sedc-power_cp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">29834914562</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-sedc_bc-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-sedc_bc-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori SEDC BC, Cori SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-sedc-sedc_bc-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.2G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4551206295</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-sedc_cc-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">cori-sedc-sedc_cc-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cori SEDC CC, Cori SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="cori-sedc-sedc_cc-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">311839</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-httpd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-httpd-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT syslog httpd only</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-httpd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.0G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">967439</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-named-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-named-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT syslog named only</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-named-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.7G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1113863</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-slapd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-slapd-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT syslog slapd only</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-slapd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1698194729</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-json-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-json-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT syslog json only</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-syslog-json-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2793493054</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-syslog-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT syslog only</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-syslog-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">83M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">199313500</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-bacnet-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-bacnet-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT bacnet</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-bacnet-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">163M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">55057339</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-ion-db-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-ion-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT ion meter</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-ion-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">27G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1023079083</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-sflow-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-sflow-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT sflow</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-sflow-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">39M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">394168</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-pue-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-pue-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT pue</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-pue-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.7G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">189912973</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-net-snmp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-net-snmp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT Net SNMP</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-net-snmp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22378193638</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-modbus-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-modbus-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CRT Power, modbus</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-modbus-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">491M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">204936501</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-modbus-full-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-modbus-full-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-modbus-full-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.5G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2110943011</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-onewire-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-onewire-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">es5 onewire, onewire</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-onewire-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.1M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5913662</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-particle-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-particle-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ParticleCounter</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-particle-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.8G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18508450893</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-pdu-snmp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-pdu-snmp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PDU snmp</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-pdu-snmp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">158M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">868840735</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-scrape-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">crt-scrape-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ION Meters</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="crt-scrape-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">35M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">73637202</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dtn-dtn-log-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dtn-dtn-log-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="dtn-dtn-log-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.7M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6101032</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dtn-tstat-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dtn-tstat-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="dtn-tstat-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">33G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">47894562913</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-collectd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-collectd-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison Collectd</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-collectd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">39G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12418476129</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2018.08/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-lustre-2018.08.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-lustre-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison Lustre</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-lustre-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">871M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8798878667</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">modbus</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-modbus-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">254M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">91650539</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-full-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-full-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-modbus-full-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11026055</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-new-2018.08.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-modbus-new-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-modbus-new-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">39M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">205177363</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-scrape-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-scrape-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ION Meters</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-scrape-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">38M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">26486379</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-job-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-job-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison-SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-sedc-job-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">26517172927</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-power_bp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-power_bp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison-SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-sedc-power_bp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.6G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2713822172</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-power_cp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-power_cp-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison-SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-sedc-power_cp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24468265933</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-sedc_bc2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-sedc_bc-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison-SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-sedc-sedc_bc-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1011M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1899712846</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-sedc_cc2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">edison-sedc-sedc_cc-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Edison SEDC CC, Edison-SEDC</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="edison-sedc-sedc_cc-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13626591</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">env-httpd-json-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">env-httpd-json-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="env-httpd-json-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10482005605</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">env-syslog-json-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">env-syslog-json-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="env-syslog-json-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.6G</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2252020539</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-collectd-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-collectd-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="gerty-collectd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">294M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Daily</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21391038</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-lustre-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-lustre-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gerty Lustre</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="gerty-lustre-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30K</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">84631</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-job-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-job-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="gerty-sedc-job-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.4G</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">877514979</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-power_bp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-power_bp-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="gerty-sedc-power_bp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">176M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21736292</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-power_cp-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">gerty-sedc-power_cp-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="gerty-sedc-power_cp-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">13M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">201407539</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mendel-modbus-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mendel-modbus-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">modbus</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="mendel-modbus-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.3M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1408239</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mendel-modbus-full-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mendle-modbus-full-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="mendle-modbus-full-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">298M</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">83413300</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ngf-syslog-json-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ngf-syslog-json-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ngf-syslog-json-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">304M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">312246945</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-das-2018.08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-das-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DAS Data</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ou-das-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">138154395</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-das-httpd-2018.08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-das-httpd-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DAS Data</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ou-das-httpd-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">181M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">200840</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-slurm-2018.08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ou-slurm-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DAS SLURM</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ou-slurm-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">19M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5130611918</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ups-modbus-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ups-modbus-*</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UPS Power, modbus</p></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ups-modbus-*"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.9M</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Monthly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">65560864</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">archive/2017.12/</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ups-modbus-full-2017.12.25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ups-modbus-full-*</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td><input type="checkbox" name="data[]" class="largerCheckbox" value="ups-modbus-full-*"></td>
+</tr>
+			  
+			  </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+<section class="section-table cid-rsW0d7iHuy" id="table1-a">
+  <div class="container container-table">
+      <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">Request Data</h2>
+	  <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">Please select the checkboxes of the datasets that you would like access to</h3>
+	  
+	  <div class="container">
+			<div class="form-group">
+				<label><b>Date range</b></label>
+				<input type="text" class ="form-control" placeholder="Enter date range" name="dateRange" required>
+				
+				<label><b>Reason</b></label></br>
+				<textarea rows="4" cols="50" name="reason" class ="form-control" required></textarea>
+
+				<label><b>Comments or special requests</b></label></br>
+				<textarea rows="4" cols="50" name="comments" class ="form-control" ></textarea>
+            
+				<input type="submit" class="btn btn-primary" value="Submit">
+		</div>
+		</form>
+	</div>
+</div>
+</section>
+</section>
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+</body>
+</html>
